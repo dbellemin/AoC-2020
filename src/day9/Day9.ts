@@ -54,7 +54,6 @@ export class Day9 extends Day {
             currentIndex++;
         }
 
-
         let i = 0;
         while (i < currentIndex) {
             let j = currentIndex;

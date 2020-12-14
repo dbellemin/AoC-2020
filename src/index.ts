@@ -8,6 +8,10 @@ import {Day6} from './day6/Day6';
 import {Day8} from './day8/Day8';
 import {Day9} from './day9/Day9';
 import {Day10} from './day10/Day10';
+import {Day11} from './day11/Day11';
+import {Day12} from './day12/Day12';
+import {Day13} from './day13/Day13';
+import {Day14} from './day14/Day14';
 
 const day1 = new Day1();
 console.log('##### Day1');
@@ -59,3 +63,23 @@ const day10 = new Day10();
 console.log('\n##### Day10');
 console.log('Part1', day10.part1());
 console.log('Part2', day10.part2());
+
+const day11 = new Day11();
+console.log('\n##### Day11');
+console.log('Part1', day11.part1());
+console.log('Part2', day11.part2());
+
+const day12 = new Day12();
+console.log('\n##### Day12');
+console.log('Part1', day12.part1());
+console.log('Part2', day12.part2());
+
+const day13 = new Day13();
+console.log('\n##### Day13');
+console.log('Part1', day13.part1());
+console.log('Part2', day13.part2());
+
+const day14 = new Day14();
+console.log('\n##### Day14');
+console.log('Part1', day14.part1());
+console.log('Part2', day14.part2()); // this one is slow

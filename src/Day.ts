@@ -5,16 +5,17 @@ export abstract class Day {
 
     abstract part1(): number;
 
-    abstract part2(): number;
+    abstract part2(): number | bigint;
 
     testMode: boolean;
 
-    getFilePath() {
+    getFilePath(dayCode = this.getDay()) {
+
         if (this.testMode) {
-            return path.resolve(__dirname, '../resources/test/' + this.getDay() + '.txt');
+            return path.resolve(__dirname, '../resources/test/' + dayCode  + '.txt');
 
         }
-        return path.resolve(__dirname, `../resources/${this.getDay()}.txt`);
+        return path.resolve(__dirname, `../resources/${dayCode}.txt`);
 
     }
 }
