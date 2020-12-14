@@ -12,6 +12,17 @@ import {Day11} from './day11/Day11';
 import {Day12} from './day12/Day12';
 import {Day13} from './day13/Day13';
 import {Day14} from './day14/Day14';
+import {Day15} from './day15/Day15';
+import {Day16} from './day16/Day16';
+import {Day17} from './day17/Day17';
+import {Day18} from './day18/Day18';
+import {Day19} from './day19/Day19';
+import {Day20} from './day20/Day20';
+import {Day21} from './day21/Day21';
+import {Day22} from './day22/Day22';
+import {Day23} from './day23/Day23';
+import {Day24} from './day24/Day24';
+import {Day25} from './day25/Day25';
 
 const day1 = new Day1();
 console.log('##### Day1');
@@ -83,3 +94,60 @@ const day14 = new Day14();
 console.log('\n##### Day14');
 console.log('Part1', day14.part1());
 console.log('Part2', day14.part2()); // this one is slow
+
+
+const day15 = new Day15();
+console.log('\n##### Day15');
+console.log('Part1', day15.part1());
+console.log('Part2', day15.part2());
+
+
+const day16 = new Day16();
+console.log('\n##### Day16');
+console.log('Part1', day16.part1());
+console.log('Part2', day16.part2());
+
+const day17 = new Day17();
+console.log('\n##### Day17');
+console.log('Part1', day17.part1());
+console.log('Part2', day17.part2());
+
+const day18 = new Day18();
+console.log('\n##### Day18');
+console.log('Part1', day18.part1());
+console.log('Part2', day18.part2());
+
+const day19 = new Day19();
+console.log('\n##### Day19');
+console.log('Part1', day19.part1());
+console.log('Part2', day19.part2());
+
+const day20 = new Day20();
+console.log('\n##### Day20');
+console.log('Part1', day20.part1());
+console.log('Part2', day20.part2());
+
+const day21 = new Day21();
+console.log('\n##### Day21');
+console.log('Part1', day21.part1());
+console.log('Part2', day21.part2());
+
+const day22 = new Day22();
+console.log('\n##### Day22');
+console.log('Part1', day22.part1());
+console.log('Part2', day22.part2());
+
+const day23 = new Day23();
+console.log('\n##### Day23');
+console.log('Part1', day23.part1());
+console.log('Part2', day23.part2());
+
+const day24 = new Day24();
+console.log('\n##### Day24');
+console.log('Part1', day24.part1());
+console.log('Part2', day24.part2());
+
+const day25 = new Day25();
+console.log('\n##### Day25');
+console.log('Part1', day25.part1());
+console.log('Part2', day25.part2());
